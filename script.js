@@ -46,7 +46,7 @@ $(document).ready(function() {
   
   updateScreen = function(displayValue) {
     var displayValue = displayValue.toString();
-    $('.screen').html(displayValue.substring(0, 10));
+    $('.screen').html(displayValue.substring(0, 14));
   };
   
   isNumber = function(value) {
